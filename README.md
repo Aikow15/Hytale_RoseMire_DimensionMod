@@ -1,1 +1,1 @@
-# Hytale_RoseMire_DimensionMod
+# Hytale RoseMire DimensionMod
