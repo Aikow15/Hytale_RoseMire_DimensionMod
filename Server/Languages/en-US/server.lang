@@ -1,0 +1,26 @@
+items.PortalKey_RoseMire.name=Fragment: Orbis - The Rose Mires
+items.PortalKey_RoseMire.description = A portal key to the Rose Mire dimension.
+portals.RoseMire_Biome.name= The Rose Mires
+portals.RoseMire_Biome.description= Explore ancient wetlands lost to time.
+
+items.Plant_Flower_Water_Pink.name=Pink Lily
+items.Plant_Flower_Water_PinkLight.name=Light Pink Lily
+
+items.Plant_Leaves_Willow_Pink.name=Pink Willow Leaves
+
+items.Plant_Reeds_Teal.name=Teal Reeds
+
+items.Wood_Bamboo_Branch_Long_Teal.name=Bamboo Long Branch
+items.Wood_Bamboo_Trunk_Teal.name=Bamboo Trunk
+items.Plant_Leaves_Bamboo_Teal.name=Teal Bamboo Leaves
+
+items.Wood_Cherry_Roots.name=Cherry Roots
+items.Wood_Cherry_Trunk.name=Cherry Trunk
+items.Wood_Cherry_Trunk.description=Refines into Softwood at the Builder's Workbench
+items.Wood_Cherry_Trunk_Full.name=Cherry Trunk Full
+items.Wood_Cherry_Trunk_Full.description=Refines into Softwood at the Builder's Workbench
+items.Wood_Cherry_Branch_Long.name=Cherry Branch
+items.Wood_Cherry_Branch_Corner.name=Cherry Branch - Corner
+items.Plant_Leaves_Cherry_Full.name=Cherry Leaves Full Bloom
+items.Plant_Leaves_Cherry_Partial.name=Cherry Leaves Partial Bloom
+items.Plant_Leaves_Cherry_Sparse.name=Cherry Leaves Sparse Bloom

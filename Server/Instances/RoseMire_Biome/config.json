@@ -1,0 +1,55 @@
+{
+  "Version": 4,
+  "UUID": {
+    "$binary": "RW3KFYGQSjaMA4pRRTqgrw==",
+    "$type": "04"
+  },
+  "DisplayName": "Stone Forest Biome",
+  "Seed": 1772843704237,
+  "WorldGen": {
+    "Type": "HytaleGenerator",
+    "WorldStructure": "WorldGen_Settings"
+  },
+  "WorldMap": {
+    "Type": "WorldGen"
+  },
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "ChunkConfig": {},
+  "IsTicking": true,
+  "IsBlockTicking": true,
+  "IsPvpEnabled": false,
+  "IsFallDamageEnabled": false,
+  "IsGameTimePaused": false,
+  "GameTime": "0001-07-02T08:13:28.425212288Z",
+
+  "ClientEffects": {
+    "SunHeightPercent": 100.0,
+    "SunAngleDegrees": 0.0,
+    "BloomIntensity": 0.30000001192092896,
+    "BloomPower": 8.0,
+    "SunIntensity": 0.25,
+    "SunshaftIntensity": 0.30000001192092896,
+    "SunshaftScaleFactor": 4.0
+  },
+  "RequiredPlugins": {},
+  "GameMode": "Creative",
+  "IsSpawningNPC": true,
+  "IsSpawnMarkersEnabled": true,
+  "IsAllNPCFrozen": false,
+  "GameplayConfig": "Default",
+  "IsCompassUpdating": true,
+  "IsSavingPlayers": true,
+  "IsSavingChunks": true,
+  "SaveNewChunks": true,
+  "IsUnloadingChunks": true,
+  "IsObjectiveMarkersEnabled": false,
+  "DeleteOnUniverseStart": false,
+  "DeleteOnRemove": false,
+  "DisabledFluidTickers": [],
+  "ResourceStorage": {
+    "Type": "Hytale"
+  },
+  "Plugin": {}
+}

@@ -1,0 +1,31 @@
+{
+  "Environments": [
+    "Env_StoneForest"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil_Mud",
+      "Id": "Crocodile"
+    },
+    {
+      "Weight": 4,
+      "SpawnBlockSet": "Soil",
+      "Id": "Raptor_Cave"
+    },
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil",
+      "Id": "Toad_Rhino"
+    },
+    {
+      "Weight": 10,
+      "SpawnBlockSet": "Soil",
+      "Id": "Pterodactyl"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}

@@ -1,0 +1,105 @@
+{
+	"$NodeId":	"Constant.Assignments-db4eccc0-4339-4920-9739-8fe51dbc177b",
+	"Type":	"Constant",
+	"ExportAs":	"StoneForest_Bamboo_Edge",
+	"Prop":	{
+		"$NodeId":	"Orienter.Prop-ab557c79-595c-4dbc-857c-c2f721ba6046",
+		"Type":	"Orienter",
+		"Skip":	false,
+		"SelectionMode":	"FirstValid",
+		"Prop":	{
+			"$NodeId":	"Imported.Prop-4909785f-7d36-468c-afb2-3c0e5b149d74",
+			"Type":	"Imported",
+			"Name":	"Bamboo",
+			"Skip":	false
+		},
+		"Rotations":	[{
+				"$NodeId":	"OrthogonalRotation-325c46aa-b9dc-448b-9f60-605757e8b97c",
+				"Yaw":	"None",
+				"Pitch":	"None",
+				"Roll":	"None"
+			}],
+		"Pattern":	{
+			"$NodeId":	"Imported.Pattern-46dc69ab-f598-4b2b-b307-6739dd8bb3a2",
+			"Type":	"Imported",
+			"Skip":	false,
+			"Name":	"Bamboo_Pattern"
+		},
+		"Scanner":	{
+			"$NodeId":	"Linear.Scanner-2aa52b94-ad4a-49ae-ae21-f811ad06012b",
+			"Type":	"Linear",
+			"Skip":	false,
+			"Axis":	"Y",
+			"AscendingOrder":	false,
+			"Scanner":	{
+				"$NodeId":	"Origin.Scanner-d51b48af-4e59-4cf5-84b7-19a60986070b",
+				"Type":	"Origin",
+				"Skip":	false
+			},
+			"Range":	{
+				"$NodeId":	"Integer.Range-ed4493f1-af42-491b-8098-69e92d935d35",
+				"MinInclusive":	115,
+				"MaxExclusive":	130
+			}
+		}
+	},
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Constant.Assignments-db4eccc0-4339-4920-9739-8fe51dbc177b":	{
+				"$Position":	{
+					"$x":	2628,
+					"$y":	5940
+				},
+				"$Title":	"[ROOT] Constant Assignments"
+			},
+			"Orienter.Prop-ab557c79-595c-4dbc-857c-c2f721ba6046":	{
+				"$Position":	{
+					"$x":	3322,
+					"$y":	5875
+				}
+			},
+			"Imported.Prop-4909785f-7d36-468c-afb2-3c0e5b149d74":	{
+				"$Position":	{
+					"$x":	4079,
+					"$y":	5754
+				}
+			},
+			"OrthogonalRotation-325c46aa-b9dc-448b-9f60-605757e8b97c":	{
+				"$Position":	{
+					"$x":	4079,
+					"$y":	5909
+				}
+			},
+			"Imported.Pattern-46dc69ab-f598-4b2b-b307-6739dd8bb3a2":	{
+				"$Position":	{
+					"$x":	4081,
+					"$y":	6093
+				}
+			},
+			"Linear.Scanner-2aa52b94-ad4a-49ae-ae21-f811ad06012b":	{
+				"$Position":	{
+					"$x":	4080,
+					"$y":	6245
+				}
+			},
+			"Origin.Scanner-d51b48af-4e59-4cf5-84b7-19a60986070b":	{
+				"$Position":	{
+					"$x":	4730,
+					"$y":	6251
+				}
+			},
+			"Integer.Range-ed4493f1-af42-491b-8098-69e92d935d35":	{
+				"$Position":	{
+					"$x":	4739,
+					"$y":	6397
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[],
+		"$WorkspaceID":	"HytaleGenerator - Assignments"
+	}
+}

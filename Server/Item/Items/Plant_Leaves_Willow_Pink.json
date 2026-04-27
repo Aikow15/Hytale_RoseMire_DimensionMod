@@ -1,0 +1,30 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Plant_Leaves_Willow_Pink.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Leaves_Willow_Pink.png",
+  "Parent": "Plant_Leaves_Oak",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Leaves/Willow_Pink.png",
+        "Weight": 1
+      }
+    ],
+    "RandomRotation": "YawStep1",
+    "CustomModel": "Blocks/Foliage/Leaves/Hanging.blockymodel",
+    "ParticleColor": "#c959e2"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

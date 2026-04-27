@@ -1,0 +1,30 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Plant_Leaves_Cherry_Full.name"
+  },
+  "Parent": "Plant_Leaves_Oak",
+  "BlockType": {
+    "CustomModel": "Blocks/Foliage/Leaves/DownShape.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Leaves/CHERRYFLOWER.png",
+        "Weight": 1
+      }
+    ],
+    "RandomRotation": "YawStep1",
+    "ParticleColor": "#245141"
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Leaves_Cherry_Full.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      3,
+      -13.5
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Plant_Leaves_Bamboo_Teal.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Leaves_Bamboo_Teal.png",
+  "Parent": "Plant_Leaves_Oak",
+  "BlockType": {
+    "CustomModel": "Blocks/Foliage/Leaves/DownShape.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Leaves/Bamboo_Teal.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#3bb18f"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

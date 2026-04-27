@@ -1,0 +1,48 @@
+{
+  "Environments": [
+    "Env_BambooHills"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil",
+      "Id": "Archaeopteryx",
+      "Flock": "One_Or_Two"
+    },
+    {
+      "Weight": 10,
+      "SpawnBlockSet": "Soil",
+      "Id": "Trillodon",
+      "Flock": "Group_Medium"
+    },
+    {
+      "Id": "Frog_Blue",
+      "SpawnBlockSet": "Mud",
+      "Weight": 10
+    },
+    {
+      "Id": "Frog_Green",
+      "SpawnBlockSet": "Mud",
+      "Weight": 10
+    },
+    {
+      "Id": "Gecko",
+      "SpawnBlockSet": "Soil",
+      "Weight": 5
+    },
+    {
+      "Id": "Flamingo",
+      "Weight": 5,
+      "SpawnBlockSet": "Mud"
+    },
+    {
+      "Id": "Tortoise",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}

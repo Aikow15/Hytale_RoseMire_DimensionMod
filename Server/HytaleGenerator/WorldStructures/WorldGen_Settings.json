@@ -1,0 +1,44 @@
+{
+  "Type": "NoiseRange",
+  "Biomes": [
+	{
+      "Biome" : "Stone_Forest",
+      "Min" : -1,
+      "Max" : -0.1
+    },
+	{
+      "Biome" : "Stone_Forest_Transition",
+      "Min" : -0.1,
+      "Max" : 0.1
+    },
+	{
+      "Biome" : "Bamboo_Maze",
+      "Min" : 0.1,
+      "Max" : 1
+    }
+  ],
+  "DefaultBiome": "Stone_Forest",
+  "DefaultTransitionDistance": 20, 
+  "MaxBiomeEdgeDistance" : 15,
+  "Density": {
+    "Type" : "Imported",
+    "Name" : "Aiko_Biome-Map"
+	},
+  "ContentFields" : [
+    {
+      "Type" : "BaseHeight",
+      "Name" : "Base",
+      "Y" : 100
+    },
+    {
+      "Type" : "BaseHeight",
+      "Name" : "Water",
+      "Y" : 100
+    },
+    {
+      "Type" : "BaseHeight",
+      "Name" : "Bedrock",
+      "Y" : 0
+    }
+  ]
+}

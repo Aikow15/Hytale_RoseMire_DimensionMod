@@ -1,0 +1,14 @@
+{
+  "InstanceId": "RoseMire_Biome",
+  "Description": {
+    "DisplayName": "server.portals.RoseMire_Biome.name",
+    "FlavorText": "server.portals.RoseMire_Biome.description",
+    "ThemeColor": "#23970cec",
+    "SplashImage": "DefaultArtwork.png",
+    "Tips": [
+      "Within, you'll find two biomes:",
+      "Blooming Hills: Tall mountains and rolling hills covered in bamboo will be found here.",
+      "Stone Forest: Dense bogs populated by tall stone spires, find valuable resources along their walls."
+    ]
+  }
+}

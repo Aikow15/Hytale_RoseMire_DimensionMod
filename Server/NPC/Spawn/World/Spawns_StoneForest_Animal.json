@@ -1,0 +1,37 @@
+{
+  "Environments": [
+    "Env_StoneForest"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil",
+      "Id": "Archaeopteryx",
+      "Flock": "Parent_And_Young_75_25"
+    },
+    {
+      "Weight": 10,
+      "SpawnBlockSet": "Soil",
+      "Id": "Trillodon"
+    },
+    {
+      "Id": "Frog_Blue",
+      "SpawnBlockSet": "Mud",
+      "Weight": 10
+    },
+    {
+      "Id": "Frog_Green",
+      "SpawnBlockSet": "Mud",
+      "Weight": 10
+    },
+    {
+      "Id": "Frog_Orange",
+      "SpawnBlockSet": "Mud",
+      "Weight": 10
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$Comment": "This instanced world spawns a portal world from Aiko's BRAIN",
+  "RequiredPlugins": {},
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "GameMode": "Adventure",
+  "IsPvpEnabled": false,
+  "IsSpawningNPC": true,
+  "GameTime": "0001-01-01T07:00:00Z",
+  "IsGameTimePaused": false,
+  "UUID": {
+    "$binary": "RW3KFYGQSjaMA4pRRTqgrw==",
+    "$type": "04"
+  },
+  "GameplayConfig": "Default",
+  "IsCompassUpdating": true,
+  "IsTicking": true,
+  "IsObjectiveMarkersEnabled": true,
+  "IsAllNPCFrozen": false,
+  "IsSavingPlayers": true,
+  "WorldGen": {
+    "Type": "HytaleGenerator",
+    "WorldStructure": "WorldGen_Settings"
+  },
+  "IsSpawnMarkersEnabled": true,
+  "DeleteOnRemove": false,
+  "Version": 2
+}

@@ -1,0 +1,27 @@
+{
+  "Environments": [
+    "Env_BambooHills"
+  ],
+  "NPCs": [
+    {
+      "Weight": 0.9,
+      "SpawnBlockSet": "Soil",
+      "Id": "Rex_Cave"
+    },
+    {
+      "Weight": 10,
+      "SpawnBlockSet": "Soil",
+      "Id": "Raptor_Cave",
+      "Flock": "Group_Tiny"
+    },
+    {
+      "Weight": 10,
+      "SpawnBlockSet": "Soil",
+      "Id": "Pterodactyl"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}

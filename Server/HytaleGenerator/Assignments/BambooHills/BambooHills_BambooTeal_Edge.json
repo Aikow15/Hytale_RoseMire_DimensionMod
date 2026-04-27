@@ -1,0 +1,150 @@
+{
+	"$NodeId":	"Constant.Assignments-db4eccc0-4339-4920-9739-8fe51dbc177b",
+	"Type":	"Constant",
+	"ExportAs":	"BambooHills_BambooTeal_Edge",
+	"Prop":	{
+		"$NodeId":	"Orienter.Prop-ab557c79-595c-4dbc-857c-c2f721ba6046",
+		"Type":	"Orienter",
+		"Skip":	false,
+		"SelectionMode":	"FirstValid",
+		"Prop":	{
+			"$NodeId":	"Prefab.Prop-942cec0c-0eab-4fb1-b956-e7ad6fe3f27b",
+			"Type":	"Prefab",
+			"ExportAs":	"",
+			"Skip":	false,
+			"WeightedPrefabPaths":	[{
+					"$NodeId":	"WeightedPath.Prefab.Prop-06c8d263-0c19-4566-bdda-26cda0abb84d",
+					"Path":	"Trees/Bamboo_Teal/Stage_00",
+					"Weight":	0.9
+				}, {
+					"$NodeId":	"WeightedPath.Prefab.Prop-667ea3f7-8269-49a3-8cf6-68e59765416f",
+					"Path":	"Trees/Bamboo_Teal/Stage_0",
+					"Weight":	0.7
+				}, {
+					"$NodeId":	"WeightedPath.Prefab.Prop-d62aaba6-c411-4fc6-8b9d-d8003d71b8a5",
+					"Path":	"Trees/Bamboo_Teal/Stage_1",
+					"Weight":	0.5
+				}, {
+					"$NodeId":	"WeightedPath.Prefab.Prop-7ce101bb-1f9c-4087-916e-fcc8433dabc2",
+					"Path":	"Trees/Bamboo_Teal/Stage_2",
+					"Weight":	0.1
+				}],
+			"LegacyPath":	false,
+			"LoadEntities":	true,
+			"MoldingDirection":	"NONE",
+			"MoldingChildren":	false
+		},
+		"Rotations":	[{
+				"$NodeId":	"OrthogonalRotation-325c46aa-b9dc-448b-9f60-605757e8b97c",
+				"Yaw":	"None",
+				"Pitch":	"None",
+				"Roll":	"None"
+			}],
+		"Pattern":	{
+			"$NodeId":	"Imported.Pattern-46dc69ab-f598-4b2b-b307-6739dd8bb3a2",
+			"Type":	"Imported",
+			"Skip":	false,
+			"Name":	"Bamboo_Pattern"
+		},
+		"Scanner":	{
+			"$NodeId":	"Linear.Scanner-2aa52b94-ad4a-49ae-ae21-f811ad06012b",
+			"Type":	"Linear",
+			"Skip":	false,
+			"Axis":	"Y",
+			"AscendingOrder":	false,
+			"Scanner":	{
+				"$NodeId":	"Origin.Scanner-d51b48af-4e59-4cf5-84b7-19a60986070b",
+				"Type":	"Origin",
+				"Skip":	false
+			},
+			"Range":	{
+				"$NodeId":	"Integer.Range-ed4493f1-af42-491b-8098-69e92d935d35",
+				"MinInclusive":	115,
+				"MaxExclusive":	130
+			}
+		}
+	},
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Constant.Assignments-db4eccc0-4339-4920-9739-8fe51dbc177b":	{
+				"$Position":	{
+					"$x":	2628,
+					"$y":	5940
+				},
+				"$Title":	"[ROOT] Constant Assignments"
+			},
+			"Orienter.Prop-ab557c79-595c-4dbc-857c-c2f721ba6046":	{
+				"$Position":	{
+					"$x":	3322,
+					"$y":	5875
+				}
+			},
+			"OrthogonalRotation-325c46aa-b9dc-448b-9f60-605757e8b97c":	{
+				"$Position":	{
+					"$x":	4079,
+					"$y":	5909
+				}
+			},
+			"Imported.Pattern-46dc69ab-f598-4b2b-b307-6739dd8bb3a2":	{
+				"$Position":	{
+					"$x":	4081,
+					"$y":	6093
+				}
+			},
+			"Linear.Scanner-2aa52b94-ad4a-49ae-ae21-f811ad06012b":	{
+				"$Position":	{
+					"$x":	4080,
+					"$y":	6245
+				}
+			},
+			"Origin.Scanner-d51b48af-4e59-4cf5-84b7-19a60986070b":	{
+				"$Position":	{
+					"$x":	4730,
+					"$y":	6251
+				}
+			},
+			"Integer.Range-ed4493f1-af42-491b-8098-69e92d935d35":	{
+				"$Position":	{
+					"$x":	4739,
+					"$y":	6397
+				}
+			},
+			"Prefab.Prop-942cec0c-0eab-4fb1-b956-e7ad6fe3f27b":	{
+				"$Position":	{
+					"$x":	4081,
+					"$y":	5588
+				}
+			},
+			"WeightedPath.Prefab.Prop-06c8d263-0c19-4566-bdda-26cda0abb84d":	{
+				"$Position":	{
+					"$x":	5026,
+					"$y":	5308
+				}
+			},
+			"WeightedPath.Prefab.Prop-667ea3f7-8269-49a3-8cf6-68e59765416f":	{
+				"$Position":	{
+					"$x":	5026,
+					"$y":	5454
+				}
+			},
+			"WeightedPath.Prefab.Prop-d62aaba6-c411-4fc6-8b9d-d8003d71b8a5":	{
+				"$Position":	{
+					"$x":	5034,
+					"$y":	5595
+				}
+			},
+			"WeightedPath.Prefab.Prop-7ce101bb-1f9c-4087-916e-fcc8433dabc2":	{
+				"$Position":	{
+					"$x":	5031,
+					"$y":	5743
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[],
+		"$WorkspaceID":	"HytaleGenerator - Assignments"
+	}
+}

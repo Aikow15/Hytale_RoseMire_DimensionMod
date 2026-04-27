@@ -1,0 +1,278 @@
+{
+	"$NodeId":	"Constant.Assignments-db4eccc0-4339-4920-9739-8fe51dbc177b",
+	"Type":	"Constant",
+	"ExportAs":	"BambooHills_Trees_Weeping",
+	"Prop":	{
+		"$NodeId":	"Orienter.Prop-3acb5255-ae89-4179-a321-df318f3aad69",
+		"Type":	"Orienter",
+		"Skip":	false,
+		"SelectionMode":	"FirstValid",
+		"Prop":	{
+			"$NodeId":	"RandomRotator.Prop-148d7767-5eb3-4812-96f4-b82326a88de3",
+			"Type":	"RandomRotator",
+			"Skip":	false,
+			"Seed":	"Yaw",
+			"HorizontalRotations":	true,
+			"Prop":	{
+				"$NodeId":	"Mask.Prop-bf600c77-cecc-420a-b2db-940e025a98a4",
+				"Type":	"Mask",
+				"Skip":	false,
+				"Prop":	{
+					"$NodeId":	"Prefab.Prop-e9560667-ef21-4eea-b98f-38733eb939a4",
+					"Type":	"Prefab",
+					"Skip":	false,
+					"WeightedPrefabPaths":	[{
+							"$NodeId":	"WeightedPath.Prefab.Prop-085643fb-b5d5-4771-b995-33d1e241b9fb",
+							"Path":	"Trees\\Cherry\\Weeping\\Stage_03",
+							"Weight":	1
+						}],
+					"LegacyPath":	false,
+					"LoadEntities":	true,
+					"MoldingDirection":	"NONE",
+					"MoldingChildren":	false
+				},
+				"Mask":	{
+					"$NodeId":	"BlockMask-febda7d4-244b-40fb-be0a-110c3fd5921b",
+					"DontReplace":	{
+						"$NodeId":	"BlockSet.BlockMask-3cc43c3a-9dd3-461b-a8cd-c37dc5639083",
+						"Inclusive":	true,
+						"Materials":	[{
+								"$NodeId":	"Material-fe8f7d86-44ef-4942-82a4-edd279711754",
+								"Solid":	"Soil_Mud_Cold",
+								"SolidBottomUp":	false
+							}, {
+								"$NodeId":	"Material-c2f86f3a-df8c-4472-a6ad-58bd59dc5bfb",
+								"Solid":	"Soil_Grass_Cold",
+								"SolidBottomUp":	false
+							}, {
+								"$NodeId":	"Material-3081275f-4f80-4b6d-a79b-05702a353b06",
+								"Solid":	"Rock_Stone",
+								"SolidBottomUp":	false
+							}, {
+								"$NodeId":	"Material-3dc9d8f8-5a83-4c48-868d-d82dd53629ab",
+								"Solid":	"Soil_Dirt_Cold",
+								"SolidBottomUp":	false
+							}, {
+								"$NodeId":	"Material-731ed0b7-5cb5-4284-a8ba-3452bbaed3e7",
+								"Solid":	"Plant_Leaves_Bamboo_Teal",
+								"SolidBottomUp":	false
+							}, {
+								"$NodeId":	"Material-85676a87-7d12-42e0-9330-99e9caa7e607",
+								"Solid":	"Wood_Bamboo_Branch_Long_Teal",
+								"SolidBottomUp":	false
+							}]
+					},
+					"Advanced":	[]
+				}
+			},
+			"Rotations":	[]
+		},
+		"Rotations":	[{
+				"$NodeId":	"OrthogonalRotation-5a1435bd-a6d7-48c3-9d91-bea12c2bc54d",
+				"Yaw":	"None",
+				"Pitch":	"None",
+				"Roll":	"None"
+			}],
+		"Pattern":	{
+			"$NodeId":	"Floor.Pattern-528d89e5-c4c6-4cd0-819b-3675379523e2",
+			"Type":	"Floor",
+			"Skip":	false,
+			"Origin":	{
+				"$NodeId":	"BlockType.Pattern-69c6510f-99db-4370-8173-e2bd1624c5a9",
+				"Type":	"BlockType",
+				"Skip":	false,
+				"Material":	{
+					"$NodeId":	"Material-2ab9e1a2-a6c2-4bd1-b560-c59447e985a1",
+					"Solid":	"Empty",
+					"SolidBottomUp":	false
+				}
+			},
+			"Floor":	{
+				"$NodeId":	"BlockSet.Pattern-c12443c8-3b31-4bbe-9614-7fa4394474d0",
+				"Type":	"BlockSet",
+				"Skip":	false,
+				"BlockSet":	{
+					"$NodeId":	"BlockSet.BlockMask-87d43ddb-409d-4247-9bea-c8da8a0a2e87",
+					"Inclusive":	true,
+					"Materials":	[{
+							"$NodeId":	"Material-1c21cad3-5997-484f-b559-daeed7cd8dc5",
+							"Solid":	"Soil_Mud_Cold",
+							"SolidBottomUp":	false
+						}]
+				}
+			}
+		},
+		"Scanner":	{
+			"$NodeId":	"Linear.Scanner-987068b2-860f-45f0-bee6-17a777d204f4",
+			"Type":	"Linear",
+			"Skip":	false,
+			"Axis":	"Y",
+			"AscendingOrder":	false,
+			"Scanner":	{
+				"$NodeId":	"Origin.Scanner-6bc447f4-ab4a-416d-ad70-22c6c1928adb",
+				"Type":	"Origin",
+				"Skip":	false
+			},
+			"Range":	{
+				"$NodeId":	"Integer.Range-50f71b1b-d45b-4006-8032-a3de79030d00",
+				"MinInclusive":	113,
+				"MaxExclusive":	120
+			}
+		}
+	},
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Constant.Assignments-db4eccc0-4339-4920-9739-8fe51dbc177b":	{
+				"$Position":	{
+					"$x":	1771,
+					"$y":	6720
+				},
+				"$Title":	"[ROOT] Constant Assignments"
+			},
+			"Orienter.Prop-3acb5255-ae89-4179-a321-df318f3aad69":	{
+				"$Position":	{
+					"$x":	2423,
+					"$y":	6723
+				}
+			},
+			"RandomRotator.Prop-148d7767-5eb3-4812-96f4-b82326a88de3":	{
+				"$Position":	{
+					"$x":	3172,
+					"$y":	6285
+				}
+			},
+			"Mask.Prop-bf600c77-cecc-420a-b2db-940e025a98a4":	{
+				"$Position":	{
+					"$x":	3875,
+					"$y":	6287
+				}
+			},
+			"Prefab.Prop-e9560667-ef21-4eea-b98f-38733eb939a4":	{
+				"$Position":	{
+					"$x":	4603,
+					"$y":	6288
+				}
+			},
+			"WeightedPath.Prefab.Prop-085643fb-b5d5-4771-b995-33d1e241b9fb":	{
+				"$Position":	{
+					"$x":	5395,
+					"$y":	6286
+				}
+			},
+			"BlockMask-febda7d4-244b-40fb-be0a-110c3fd5921b":	{
+				"$Position":	{
+					"$x":	4470,
+					"$y":	6735
+				}
+			},
+			"BlockSet.BlockMask-3cc43c3a-9dd3-461b-a8cd-c37dc5639083":	{
+				"$Position":	{
+					"$x":	5145,
+					"$y":	6806
+				}
+			},
+			"Material-fe8f7d86-44ef-4942-82a4-edd279711754":	{
+				"$Position":	{
+					"$x":	6609,
+					"$y":	6381
+				}
+			},
+			"Material-c2f86f3a-df8c-4472-a6ad-58bd59dc5bfb":	{
+				"$Position":	{
+					"$x":	6608,
+					"$y":	6533
+				}
+			},
+			"Material-3081275f-4f80-4b6d-a79b-05702a353b06":	{
+				"$Position":	{
+					"$x":	6603,
+					"$y":	6686
+				}
+			},
+			"Material-3dc9d8f8-5a83-4c48-868d-d82dd53629ab":	{
+				"$Position":	{
+					"$x":	6600,
+					"$y":	6844
+				}
+			},
+			"Material-731ed0b7-5cb5-4284-a8ba-3452bbaed3e7":	{
+				"$Position":	{
+					"$x":	6604,
+					"$y":	7008
+				}
+			},
+			"Material-85676a87-7d12-42e0-9330-99e9caa7e607":	{
+				"$Position":	{
+					"$x":	6598,
+					"$y":	7168
+				}
+			},
+			"OrthogonalRotation-5a1435bd-a6d7-48c3-9d91-bea12c2bc54d":	{
+				"$Position":	{
+					"$x":	3174,
+					"$y":	6757
+				}
+			},
+			"Floor.Pattern-528d89e5-c4c6-4cd0-819b-3675379523e2":	{
+				"$Position":	{
+					"$x":	3173,
+					"$y":	6970
+				}
+			},
+			"BlockType.Pattern-69c6510f-99db-4370-8173-e2bd1624c5a9":	{
+				"$Position":	{
+					"$x":	3843,
+					"$y":	6963
+				}
+			},
+			"Material-2ab9e1a2-a6c2-4bd1-b560-c59447e985a1":	{
+				"$Position":	{
+					"$x":	4465,
+					"$y":	6956
+				}
+			},
+			"BlockSet.Pattern-c12443c8-3b31-4bbe-9614-7fa4394474d0":	{
+				"$Position":	{
+					"$x":	3834,
+					"$y":	7141
+				}
+			},
+			"BlockSet.BlockMask-87d43ddb-409d-4247-9bea-c8da8a0a2e87":	{
+				"$Position":	{
+					"$x":	4476,
+					"$y":	7151
+				}
+			},
+			"Material-1c21cad3-5997-484f-b559-daeed7cd8dc5":	{
+				"$Position":	{
+					"$x":	4997,
+					"$y":	7134
+				}
+			},
+			"Linear.Scanner-987068b2-860f-45f0-bee6-17a777d204f4":	{
+				"$Position":	{
+					"$x":	3177,
+					"$y":	7318
+				}
+			},
+			"Origin.Scanner-6bc447f4-ab4a-416d-ad70-22c6c1928adb":	{
+				"$Position":	{
+					"$x":	3817,
+					"$y":	7323
+				}
+			},
+			"Integer.Range-50f71b1b-d45b-4006-8032-a3de79030d00":	{
+				"$Position":	{
+					"$x":	3824,
+					"$y":	7471
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[],
+		"$WorkspaceID":	"HytaleGenerator - Assignments"
+	}
+}

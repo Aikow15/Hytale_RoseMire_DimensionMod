@@ -1,0 +1,71 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.PortalKey_RoseMire.name",
+    "Description": "server.items.PortalKey_RoseMire.description"
+  },
+  "Icon": "Icons/ItemsGenerated/PortalKey_RoseMire.png",
+  "Categories": [
+    "Blocks.Portals"
+  ],
+  "PortalKey": {
+    "PortalType": "RoseMire_Biome",
+    "TimeLimitSeconds": 1800
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Miscellaneous/Portal_Shard.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/Portal_Shard_Texture.png",
+        "Weight": 1
+      }
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 15
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Arcane_Portals"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 1
+  },
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Portal",
+      "Temporary"
+    ]
+  },
+  "Quality": "Uncommon",
+  "ItemLevel": 51,
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      137,
+      22.5
+    ],
+    "Translation": [
+      -9,
+      -16
+    ]
+  }
+}
